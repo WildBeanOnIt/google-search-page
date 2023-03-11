@@ -1,0 +1,26 @@
+.logo-header {
+  outline: 2px solid black;
+  width: 200px;
+}
+
+#search {
+  outline: 1px solid red;
+  width: 400px;
+  margin-left: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.my-input {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 38px;
+  border: 1px solid #5f6368;
+  border-radius: 24px;
+  align-items: center;
+  /* background-color: #202124; */
+}
