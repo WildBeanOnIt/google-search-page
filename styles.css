@@ -1,5 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .top-search-wrapper {
-  outline: 3px solid orange;
+  /* outline: 3px solid orange; */
   display: flex;
   align-items: center;
 }
@@ -11,7 +17,6 @@
 }
 
 #search {
-  /* outline: 1px solid red; */
   align-self: center;
   width: 490px;
   height: 30px;
@@ -24,18 +29,22 @@
 
 .mic,
 .search {
-  width: 24px;
-  height: 24px;
+  width: 43px;
+  height: 20px;
   padding: 0 10px;
 }
 
 .header-img {
-  width: 24px;
+  width: 30px;
 }
 
 .profile > img {
-  width: 24px;
   border-radius: 25px;
+}
+
+.profile {
+  padding-right: 15px;
+  width: 45px;
 }
 
 img {
@@ -45,7 +54,7 @@ img {
 
 .my-input {
   display: flex;
-  width: 600px;
+  width: 590px;
   height: 38px;
   border: 1px solid #5f6368;
   border-radius: 24px;
