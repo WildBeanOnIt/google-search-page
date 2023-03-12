@@ -1,25 +1,40 @@
+.top-search-wrapper {
+  outline: 3px solid orange;
+  display: flex;
+  align-items: center;
+}
+
 .logo-header {
+  margin-right: 28px;
   outline: 2px solid black;
-  width: 200px;
+  width: 120px;
 }
 
 #search {
   /* outline: 1px solid red; */
-  width: 400px;
+  align-self: center;
+  width: 490px;
   height: 30px;
   margin-left: 10px;
-  border-top: 2px solid black;
-  border-right: 2px solid red;
-  border-bottom: 2px solid black;
-  border-left: 2px solid black;
+  border-top: none;
+  border-right: 2px solid #dee0e4;
+  border-bottom: none;
+  border-left: none;
+}
+
+.mic,
+.search {
+  width: 24px;
+  height: 24px;
+  padding: 0 10px;
 }
 
 .header-img {
-  width: 20px;
+  width: 24px;
 }
 
 .profile > img {
-  width: 20px;
+  width: 24px;
   border-radius: 25px;
 }
 
@@ -34,4 +49,13 @@ img {
   height: 38px;
   border: 1px solid #5f6368;
   border-radius: 24px;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.right-navbar-icons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
