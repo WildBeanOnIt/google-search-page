@@ -108,6 +108,10 @@ img {
   padding-top: 10px;
 }
 
+.middle-info span {
+  color: #7b7f83;
+}
+
 .block-one {
   padding-top: 10px;
   max-width: 660px;
@@ -127,6 +131,8 @@ img {
 
 .block-one h3 {
   padding: 5px 0;
+  color: #2225a9;
+  font-family: sans-serif;
 }
 
 .block-two-links {
@@ -143,6 +149,7 @@ a {
   max-width: 690px;
   padding: 10px;
   border-radius: 5px 5px 0 0;
+  font-family: sans-serif;
 }
 
 .col-1,
@@ -155,9 +162,11 @@ a {
   border-bottom: 1px solid;
   border-left: 1px solid;
   max-width: 690px;
+  font-family: sans-serif;
 }
 
 .col-4 {
+  font-family: sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
