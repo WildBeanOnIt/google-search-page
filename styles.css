@@ -90,3 +90,42 @@ img {
 .nav-links .settings {
   margin-left: 93px;
 }
+
+.container-info {
+  margin-left: 160px;
+  outline: 2px solid red;
+}
+
+.middle-info {
+  padding-top: 10px;
+}
+
+.block-one {
+  outline: 3px solid blue;
+  padding-top: 10px;
+  max-width: 660px;
+}
+
+.two {
+  padding: 35px 0;
+}
+
+.block-one .fa-chevron-right {
+  font-size: 10px;
+}
+
+.block-one span .fa-caret-down {
+  font-size: 15px;
+}
+
+.block-one h3 {
+  padding: 5px 0;
+}
+
+.block-two-links {
+  padding-top: 3px;
+}
+
+a {
+  text-decoration: none;
+}
